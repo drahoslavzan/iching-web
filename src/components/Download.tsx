@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { config } from '../config';
 import { AnalyticsContext } from '../scripts/Analytics';
+import MailPopup from './MailPopup';
 
 type VariantProps = {
     variant: string;
@@ -11,11 +12,17 @@ type VariantProps = {
 function Variant(props: VariantProps) {
     const ref = React.useRef<HTMLButtonElement>(null);
     const tracker = useContext(AnalyticsContext);
+    const [mailOpen, setMailOpen] = React.useState(false);
+
+    function handleMailClose() {
+        setMailOpen(false);
+        if (!props.download) return;
+        ref.current?.click();
+    }
 
     function handleDownload() {
         tracker?.track(`download-${props.variant}`);
-        if (!props.download) return;
-        ref.current?.click();
+        setMailOpen(true);
     }
 
     return (
@@ -40,6 +47,7 @@ function Variant(props: VariantProps) {
                     <button ref={ref} type="submit" />
                 </form>
             </div>
+            <MailPopup ready={!!props.download} onClose={handleMailClose} open={mailOpen} />
         </div>
     );
 }

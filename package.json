@@ -5,6 +5,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.7.6",
+    "body-scroll-lock": "^3.0.2",
     "next": "latest",
     "postcss-import": "^12.0.1",
     "react": "latest",
@@ -18,6 +19,7 @@
     "start": "NODE_ENV=production next start"
   },
   "devDependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
     "@types/next": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
