@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<iching>
+    <version>1.0</version>
+    <link>https://ichingoracle.app/dl/iching-setup.exe</link>
+    <plugins>
+        <plugin>
+            <id>longterm</id>
+            <name>Longterm</name>
+            <version>1.0</version>
+            <link>https://ichingoracle.app/plugins/longterm</link>
+        </plugin>
+        <plugin>
+            <id>mysteries</id>
+            <name>Mysteries</name>
+            <version>1.0</version>
+            <link>https://ichingoracle.app/plugins/mysteries</link>
+        </plugin>
+        <plugin>
+            <id>masters</id>
+            <name>Masters</name>
+            <version>1.0</version>
+            <link>https://ichingoracle.app/plugins/masters</link>
+        </plugin>
+    </plugins>
+    <news></news>
+</iching>

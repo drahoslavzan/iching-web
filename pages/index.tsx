@@ -59,9 +59,9 @@ function Features() {
 export default function Index() {
     return (
         <div className="absolute w-full h-full">
-            <Hero />
+            <Hero downloadId="download" />
             <Features />
-            <Download />
+            <Download id="download" />
             <Footer />
         </div>
     );

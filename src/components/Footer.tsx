@@ -1,9 +1,13 @@
 import React from 'react';
+import { config } from '../config';
 
 export default function Footer() {
     return (
-        <footer className="w-full h-16 bg-gray-200">
-            FOOTER
+        <footer className="w-full bg-gray-200 py-8">
+            <div className="w-full flex flex-col items-center">
+                <div>Copyright &copy; {new Date().getFullYear()} {config.app}</div>
+                <div className="font-bold">{config.email}</div>
+            </div>
         </footer>
     );
 }
