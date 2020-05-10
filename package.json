@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production next start"
   },
   "devDependencies": {
     "@types/next": "latest",
