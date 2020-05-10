@@ -14,6 +14,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "sitemap": "node sitemapgen.js",
     "start": "NODE_ENV=production next start"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "@types/react-dom": "latest",
     "@types/styled-components": "^5.1.0",
     "babel-plugin-styled-components": "^1.10.7",
+    "nextjs-sitemap-generator": "^1.0.0",
     "tailwindcss": "^1.4.6",
     "typescript": "latest"
   }
