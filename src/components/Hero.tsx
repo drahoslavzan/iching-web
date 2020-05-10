@@ -27,14 +27,14 @@ interface HeroProps {
 
 export default function Hero(props: HeroProps) {
     return (
-        <div className="w-full h-screen bg-gray-200">
+        <header className="w-full h-screen bg-gray-200">
             <div className="relative w-full h-full flex flex-col justify-center">
                 <ImgContainer className="relative mb-8">
                     <img className="m-auto max-w-full max-h-full absolute top-0 left-0 right-0 bottom-0" src="/images/hero.png" />
                 </ImgContainer>
                 <Download id={props.downloadId} />
             </div>
-        </div>
+        </header>
     );
 }
 

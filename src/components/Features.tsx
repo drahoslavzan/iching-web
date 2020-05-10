@@ -38,7 +38,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="flex items-center flex-wrap mb-20">
+        <div className="flex items-center flex-wrap">
           <div className="w-full md:w-1/2">
             <h4 className="text-2xl text-gray-800 font-bold mb-3">
                 Support for Multiple IChing Methods using Plugins
