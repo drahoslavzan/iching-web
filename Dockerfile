@@ -7,7 +7,7 @@ RUN npm ci --only=production
 
 COPY . .
 RUN npm run build
-RUN npm audit fix
+#RUN npm audit fix
 
 EXPOSE 3000
 
