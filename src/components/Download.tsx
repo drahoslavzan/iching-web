@@ -41,12 +41,17 @@ interface DownloadProops {
 export default function Download(props: DownloadProops) {
     return (
         <div id={props.id} className="flex flex-col justify-center p-8 bg-blue-100">
-            <h3 className="text-center font-bold text-3xl mb-8">Download</h3>
+            <h3 className="text-center font-bold text-4xl mb-8">Download</h3>
             <p className="mb-8 text-center text-lg">
                 100% FREE with NO ads, NO malware and NO distractions.
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center w-full hidden sm:inline-flex">
                 <Variant variant="windows" download="iching-setup.exe" />
+                <Variant variant="mac" last />
+            </div>
+            <div className="flex flex-col items-center w-full block sm:hidden">
+                <Variant variant="windows" download="iching-setup.exe" last />
+                <div className="mt-8" />
                 <Variant variant="mac" last />
             </div>
         </div>
