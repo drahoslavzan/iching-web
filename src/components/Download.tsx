@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { config } from '../config';
+import { AnalyticsContext } from '../scripts/Analytics';
 
 type VariantProps = {
     variant: string;
@@ -8,7 +9,10 @@ type VariantProps = {
 }
 
 function Variant(props: VariantProps) {
+    const tracker = useContext(AnalyticsContext);
+
     function handleDownload() {
+        tracker?.track(`download-${props.variant}`)
     }
 
     return (
