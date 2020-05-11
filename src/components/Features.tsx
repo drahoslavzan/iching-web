@@ -12,7 +12,7 @@ export default function Features() {
                 Standalone Multiplatform Application
             </h4>
             <p className="text-gray-600 mb-8">
-                You do <span className="font-bold">not need internet access</span> in order to do IChing reading.
+                You do <span className="font-bold">not need internet access</span> in order to do I Ching reading.
                 Just run the application and focus on a reading instead of fighting
                 with a slow response because of connection problems.
             </p>
@@ -41,11 +41,11 @@ export default function Features() {
         <div className="flex items-center flex-wrap">
           <div className="w-full md:w-1/2">
             <h4 className="text-2xl text-gray-800 font-bold mb-3">
-                Support for Multiple IChing Methods using Plugins
+                Support for Multiple I Ching Methods using Plugins
             </h4>
             <p className="text-gray-600 mb-8">
-                Application contains implementation for various <span className="font-bold">Plum Blossom IChing</span> methods,
-                but it can be extended to do calculation of different IChing methods
+                Application contains implementation for various <span className="font-bold">Plum Blossom I Ching</span> methods,
+                but it can be extended to do calculation of different I Ching methods
                 as well. <span className="font-bold">Universal Method</span> is included for FREE.
             </p>
           </div>

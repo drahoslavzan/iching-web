@@ -8,7 +8,7 @@ function Book() {
     return (
         <section className="container mx-auto px-6 pt-10 pb-8">
             <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
-                IChing Calculation Mehtods
+                I Ching Calculation Mehtods
             </h2>
             <div className="flex items-center flex-wrap">
                 <div className="w-full md:w-1/2 p-8">
@@ -19,7 +19,7 @@ function Book() {
                         Based on a book from Rene van Osten <span className="font-bold">Die Pflaumenblüten Numerologie</span>.
                     </p>
                     <h4 className="text-xl text-gray-800 font-bold mb-4 mt-8">
-                        Supported Plum Blossom Iching Methods
+                        Supported Plum Blossom I Ching Methods
                     </h4>
                     <ul className="list-disc pl-8">
                         <li>Universal predictions</li>

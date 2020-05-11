@@ -1,6 +1,6 @@
 
 export const config = {
-    app: 'IChing Oracle',
+    app: 'I Ching Oracle',
     email: 'appsdrift@gmail.com',
     site: 'https://ichingoracle.app'
 };
