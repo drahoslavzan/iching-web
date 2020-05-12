@@ -16,7 +16,7 @@ function Book() {
                 </div>
                 <div className="w-full md:w-1/2">
                     <p className="text-lg text-gray-600">
-                        Based on a book from Rene van Osten <span className="font-bold">Die Pflaumenblüten Numerologie</span>.
+                        Based on the book from Rene van Osten <span className="font-bold">Die Pflaumenblüten Numerologie</span>.
                     </p>
                     <h4 className="text-xl text-gray-800 font-bold mb-4 mt-8">
                         Supported Plum Blossom I Ching Methods

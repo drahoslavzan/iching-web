@@ -47,7 +47,7 @@ function Variant(props: VariantProps) {
                     <button ref={ref} type="submit" />
                 </form>
             </div>
-            <MailPopup ready={!!props.download} onClose={handleMailClose} open={mailOpen} />
+            <MailPopup version={props.variant} available={!!props.download} onClose={handleMailClose} open={mailOpen} />
         </div>
     );
 }
